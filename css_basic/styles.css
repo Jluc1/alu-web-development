@@ -1,0 +1,39 @@
+body, main {
+    display: flex;
+  }
+  
+  body {
+    flex-direction: column;
+    background-color: rgba(68, 123, 160, 0.495);
+    color: rgb(1, 1, 1);
+  }
+  
+  header {
+    background-color: rgb(68, 123, 160);
+    color: #8d0c0c;
+}
+  main {
+    flex-direction: row;
+  }
+  
+  main {
+    flex: auto;
+  }
+  
+  article {
+    flex: 2;
+  }
+  
+  aside {
+    flex: 1;
+  }
+  
+  article, aside {
+    overflow-y: auto;
+  }
+
+  footer {
+    background-color:rgb(68, 123, 160);
+    color: rgb(1, 1, 1);
+}
+  
