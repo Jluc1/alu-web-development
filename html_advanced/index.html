@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Page Title</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .header {
+            display: flex;
+            justify-content: space-between;
+            padding: 20px 50px;
+            background-color: #f8f9fa;
+        }
+        .logo img {
+            height: 50px;
+        }
+        .links a {
+            margin-left: 15px;
+            text-decoration: none;
+            color: #333;
+        }
+        /* Banner styles */
+        .banner {
+            padding: 10px;
+            background-color: #f1f1f1;
+        }
+        .banner div {
+            margin-bottom: 20px;
+        }
+        .blocks {
+            display: flex;
+            justify-content: space-between;
+        }
+        .block {
+            width: 50%;
+            background-color: #fff;
+            padding: 10px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        .center-content {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 40vh;
+        }
+        .quote {
+            padding: 10px;
+            background-color: #f1f1f1;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .quote img {
+            margin-right: 20px;
+        }
+        .quote-text {
+            max-width: 60%;
+        }
+        .videos {
+            padding: 40px;
+            background-color: #f1f1f1;
+        }
+        .video {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin-bottom: 20px;
+        }
+        .video img {
+            margin-right: 20px;
+        }
+        .rating {
+            display: flex;
+            align-items: center;
+        }
+        .rating img {
+            margin-right: 5px;
+        }
+        .membership {
+            padding: 10px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 14vh;
+            margin: 0;
+            background-color: #f1f1f1;
+            height: 50vh
+        }
+
+    </style>
+</head>
+<body>
+    <header class="header">
+        <div class="logo">
+            <a href="#"><img src="logo.png" alt="logo"></a>
+        </div>
+        <div class="links">
+            <a href="#">Link 1</a>
+            <a href="#">Link 2</a>
+            <a href="#">Link 3</a>
+        </div>
+    </header>
+    <!-- Banner code -->
+    <main>
+        <section class="banner">
+            <div class="center-content">
+                <h1>Title</h1>
+                <p>3 words</p>
+                <button>button</button>
+            </div>
+            <div class="center-content"> 
+                <h2>title</h2>
+                <div class="blocks">
+                    <div class="block">
+                        <img src="image1.png" alt="Image ">
+                        <h3>Name</h3>
+                        <p>Sub-title</p>
+                    </div>
+                    <div class="block">
+                        <img src="image1.png" alt="Image ">
+                        <h3>Name</h3>
+                        <p>Sub-title</p>
+                    </div>
+                    <div class="block">
+                        <img src="image1.png" alt="Image ">
+                        <h3>Name</h3>
+                        <p>Sub-title</p>
+                    </div>
+                    <div class="block">
+                        <img src="image1.png" alt="Image ">
+                        <h3>Name</h3>
+                        <p>Sub-title</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="quote">
+            <img src="quote.png" alt="Quote">
+            <div class="quote-text">
+                <div class="block">
+                <blockquote>"Quote."</blockquote>
+                <p>- Author</p>
+                <p>Sub-title</p>
+                </div>
+            </div>
+        </section>
+        <section class="videos">
+            <div class="center-content">
+            <h1>Videos</h1>
+            <div class="blocks">
+                <div class="video">
+                    <div class="block">                    
+                        <img src="video1.png" alt="Image">
+                        <h2>Title</h2>
+                        <p>text</p>
+                        <div class="author">
+                            <img src="author1.png" alt="Image">
+                            <h3>Title</h3>
+                        </div>
+                        <div class="rating">
+                            <img src="star.png" alt="Star">
+                            <img src="star.png" alt="Star">
+                            <img src="star.png" alt="Star">
+                            <img src="star.png" alt="Star">
+                            <img src="star.png" alt="Star">
+                            <p>Rating text...</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="video">
+                    <div class="block">                    
+                        <img src="video1.png" alt="Image">
+                        <h2>Title</h2>
+                        <p>text</p>
+                        <div class="author">
+                            <img src="author1.png" alt="Image">
+                            <h3>Title</h3>
+                        </div>
+                        <div class="rating">
+                            <img src="star.png" alt="Star">
+                            <img src="star.png" alt="Star">
+                            <img src="star.png" alt="Star">
+                            <img src="star.png" alt="Star">
+                            <img src="star.png" alt="Star">
+                            <!-- Repeat the above line for each star -->
+                            <p>Rating text...</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="video">
+                    <div class="block">                    
+                        <img src="video1.png" alt="Image">
+                        <h2>Title</h2>
+                        <p>text</p>
+                        <div class="author">
+                            <img src="author1.png" alt="Image">
+                            <h3>Title</h3>
+                        </div>
+                        <div class="rating">
+                            <img src="star.png" alt="Star">
+                            <img src="star.png" alt="Star">
+                            <img src="star.png" alt="Star">
+                            <img src="star.png" alt="Star">
+                            <img src="star.png" alt="Star">
+                            <p>Rating text...</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="video">
+                    <div class="block">                    
+                        <img src="video1.png" alt="Image">
+                        <h2>Title</h2>
+                        <p>text</p>
+                        <div class="author">
+                            <img src="author1.png" alt="Image">
+                            <h3>Title</h3>
+                        </div>
+                        <div class="rating">
+                            <img src="star.png" alt="Star">
+                            <img src="star.png" alt="Star">
+                            <img src="star.png" alt="Star">
+                            <img src="star.png" alt="Star">
+                            <img src="star.png" alt="Star">
+                            <p>Rating text...</p>
+                        </div>
+                    </div>
+                </div>        
+            </div>
+        </section>
+        <section class="membership">
+            <div class="center-content">
+                <h2>Membership</h2>
+                <div class="blocks">
+                    <div class="block">
+                        <img src="member1.png" alt="Image">
+                        <h3>Title</h3>
+                        <p>Text</p>
+                        <button>Button</button>
+                    </div>
+                    <div class="block">
+                        <img src="member2.png" alt="Image">
+                        <h3>Title</h3>
+                        <p>Text</p>
+                        <button>Button</button>
+                    </div>
+                    <div class="block">
+                        <img src="member3.png" alt="Image">
+                        <h3>Title</h3>
+                        <p>Text</p>
+                        <button>Button</button>
+                    </div>
+                    <div class="block">
+                        <img src="member4.png" alt="Image">
+                        <h3>Title</h3>
+                        <p>Text</p>
+                        <button>Button</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
