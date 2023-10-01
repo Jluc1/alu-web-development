@@ -4,6 +4,9 @@ body {
     box-sizing: border-box;
 }
 .header {
+    background-image: url('https://i.pinimg.com/originals/12/f1/59/12f15971f93bc4849ec97ce300efc13b.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
     display: flex;
     justify-content: space-between;
     padding: 20px 50px;
@@ -17,8 +20,11 @@ body {
     text-decoration: none;
     color: #333;
 }
-/* Banner styles */
+
 .banner {
+    background-image: url('WhatsApp Image 2023-09-22 at 12.25.16.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
     padding: 10px;
     background-color: #f1f1f1;
 }
