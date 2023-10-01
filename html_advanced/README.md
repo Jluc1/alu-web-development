@@ -1,5 +1,3 @@
-Certainly! Here's an updated README.md with an included image:
-
 # Project README - Implementing HTML Structure from Designer File
 
 ![Project Image](project_image.jpg)
